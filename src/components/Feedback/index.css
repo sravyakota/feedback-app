@@ -1,0 +1,44 @@
+/* Write your CSS code here. */
+.bg {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.bg2 {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.feedbackContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 40px;
+}
+.semiFeedback {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.im {
+  width: 60px;
+  height: 60px;
+}
+.heading {
+  text-align: center;
+}
+.para {
+  font-family: 'roboto';
+  font-weight: bold;
+}
